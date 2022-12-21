@@ -1,0 +1,503 @@
+sessionID: 0
+Game: GP3
+gameID: P3
+numPatches: 6
+initialHerdSize: 10
+numHH: 1
+numYears: 1
+numPhases: 2
+hasChoosingShared?: true
+hasChoosingPrivate?: true
+hasForage?: false
+maxPrivateSquares: 1
+baseSquaresPerDay: 3
+pS_base: 1
+HpA_base: 1
+dP_dHpA: 0.1
+harvest_day: 60
+dP_dfNeeds: 0.2
+needsDays: 10
+initialScore: 100
+phaseLengthDays: 4
+probDeathPoor: 0.6
+probDeathOk: 0.2
+probDeathGood: 0
+grassR: 0.4
+grassK: 200
+grassE0: 5
+showToggleButton: true
+animalNeeds: 8
+downThreshold: 0.6
+upThreshold: 0.8
+grassUndergroundFraction: 0.1
+maxColorRain: 10
+grass_1: 5
+grass_2: 5
+grass_3: 0
+grass_4: 0
+grass_5: 0
+grass_6: 3
+grass_7: 4
+grass_8: 0
+grass_9: 0
+grass_10: 4
+grass_11: 4
+grass_12: 3
+grass_13: 0
+grass_14: 3
+grass_15: 4
+grass_16: 0
+clim_1: 2
+clim_2: 4
+clim_3: 6
+clim_4: 3
+clim_5: 0
+clim_6: 6
+clim_7: 6
+clim_8: 0
+phase_1: P
+phase_2: P
+phase_3: P
+phase_4: P
+phase_5: P
+phase_6: P
+phase_7: P
+phase_8: P
+
+Choosing shared land at 10:46:44.281 AM 29-Oct-2021
+Case 3.0 - Player 2 selected patch 0 5 at 10:47:03.950 AM 29-Oct-2021
+Case 3.0 - Player 2 selected patch 1 5 at 10:47:04.610 AM 29-Oct-2021
+Case 3.0 - Player 2 selected patch 2 5 at 10:47:05.226 AM 29-Oct-2021
+Case 3.0 - Player 2 selected patch 2 4 at 10:47:06.326 AM 29-Oct-2021
+Case 3.0 - Player 2 selected patch 1 4 at 10:47:06.926 AM 29-Oct-2021
+Case 3.0 - Player 2 selected patch 0 4 at 10:47:07.503 AM 29-Oct-2021
+Case 3.15 - Player 3 clicked confirm at 10:47:14.859 AM 29-Oct-2021
+Case 3.15 - Player 1 clicked confirm at 10:47:14.960 AM 29-Oct-2021
+Case 3.15 - Player 2 clicked confirm at 10:47:15.515 AM 29-Oct-2021
+Case 3.15 - Player 4 clicked confirm at 10:47:15.529 AM 29-Oct-2021
+Patch 0 5 shared
+Patch 2 4 shared
+Patch 1 4 shared
+Patch 0 4 shared
+Patch 2 5 shared
+Patch 1 5 shared
+Choosing private land at 10:47:15.594 AM 29-Oct-2021
+Case 3.1 - Player 4 selected patch 3 2 at 10:47:25.702 AM 29-Oct-2021
+Case 3.1 - Player 2 selected patch 2 2 at 10:47:27.288 AM 29-Oct-2021
+Case 3.1 - Player 1 selected patch 4 3 at 10:47:28.141 AM 29-Oct-2021
+Case 3.1 - Player 3 selected patch 1 3 at 10:47:30.372 AM 29-Oct-2021
+Case 3.15 - Player 4 clicked confirm at 10:47:35.324 AM 29-Oct-2021
+Case 3.15 - Player 3 clicked confirm at 10:47:35.469 AM 29-Oct-2021
+Case 3.15 - Player 1 clicked confirm at 10:47:35.495 AM 29-Oct-2021
+Case 3.15 - Player 2 clicked confirm at 10:47:35.648 AM 29-Oct-2021
+Patch 3 2 owned by Player 4
+Patch 4 3 owned by Player 1
+Patch 1 3 owned by Player 3
+Patch 2 2 owned by Player 2
+Beginning pasture phases at 10:47:35.741 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 3 2 at 10:47:48.862 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 3 2 at 10:47:50.654 AM 29-Oct-2021
+Case 3.5 - Player 3 viewing patch 1 3 at 10:47:50.833 AM 29-Oct-2021
+Case 3.5 - Player 4 viewing patch 3 2 at 10:47:50.874 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 3 2 at 10:47:52.360 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 3 at 10:47:54.056 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:47:55.723 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:47:56.625 AM 29-Oct-2021
+Case 3.10 - Player 4 assigned avatar to herd 1 at patch -2 3 at 10:47:56.643 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 1 at 10:47:58.324 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:48:01.508 AM 29-Oct-2021
+Case 3.10 - Player 1 assigned avatar to herd 1 at patch -2 3 at 10:48:04.083 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 2 at 10:48:04.239 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 0 at day 2 at 10:48:04.991 AM 29-Oct-2021
+Case 3.10 - Player 3 assigned avatar to herd 1 at patch -3 3 at 10:48:05.844 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 2 at 10:48:07.042 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 1 at 10:48:08.673 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 1 at 10:48:09.923 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 2 at 10:48:09.954 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 1 at 10:48:11.277 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 2 at 10:48:11.650 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 2 at 10:48:12.847 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 3 2 to move to at 10:48:14.636 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 1 2 to move to at 10:48:15.018 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 1 3 to move to at 10:48:17.394 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 1 at 10:48:17.436 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:48:21.829 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 2 at 10:48:27.341 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 1 at 10:48:27.380 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 2 at 10:48:28.845 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:48:30.054 AM 29-Oct-2021
+Case 3.10 - Player 2 assigned avatar to herd 1 at patch -2 3 at 10:48:30.974 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 1 at 10:48:31.620 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 2 at 10:48:32.110 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 4 3 to move to at 10:48:33.975 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 3 at 10:49:05.992 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 3 at 10:49:08.694 AM 29-Oct-2021
+Case 3.5 - Player 4 viewing patch 3 2 at 10:49:11.504 AM 29-Oct-2021
+Case 3.4 - Player 1 denied Player 2's  path to patch 4 3 at 10:49:11.916 AM 29-Oct-2021
+Case 3.5 - Player 4 viewing patch 3 2 at 10:49:16.565 AM 29-Oct-2021
+Case 3.5 - Player 3 viewing patch 1 3 at 10:49:16.647 AM 29-Oct-2021
+Case 3.4 - Player 4 denied Player 1's  path to patch 3 2 at 10:49:18.509 AM 29-Oct-2021
+Case 3.5 - Player 3 viewing patch 1 3 at 10:49:19.450 AM 29-Oct-2021
+Case 3.4 - Player 3 denied Player 4's  path to patch 1 3 at 10:49:21.869 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 3 at 10:49:31.464 AM 29-Oct-2021
+Case 3.5 - Player 3 viewing patch 1 2 at 10:49:31.888 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 1 at 10:49:32.075 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:49:33.306 AM 29-Oct-2021
+Case 3.5 - Player 4 viewing patch 3 2 at 10:49:33.527 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 2 at 10:49:34.428 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:49:35.108 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 3 at 10:49:35.128 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:49:35.697 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 0 3 to move to at 10:49:36.498 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 2 at 10:49:36.662 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 1 at 10:49:36.879 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 1 at 10:49:37.048 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 2 at 10:49:37.911 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 2 at 10:49:38.900 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 3 3 to move to at 10:49:40.890 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 1 at 10:49:44.283 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 4 2 to move to at 10:49:48.253 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 2 2 at 10:49:48.950 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:49:50.668 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:49:51.868 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 2 at 10:49:51.970 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:49:51.984 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:49:52.164 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 3 at 10:49:53.013 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 3 at 10:49:53.353 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 1 at 10:49:53.384 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 4 at 10:49:54.199 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 2 at 10:49:54.412 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 2 at 10:49:54.441 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 3 at 10:49:55.540 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 0 2 to move to at 10:49:55.851 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 2 3 to move to at 10:49:57.402 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 5 2 to move to at 10:49:58.906 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:49:59.337 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:49:59.555 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 2 1 to move to at 10:49:59.915 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 4 at 10:50:00.688 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 3 at 10:50:00.785 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:50:00.975 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:01.377 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 5 at 10:50:01.502 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 4 at 10:50:01.980 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 2 at 10:50:02.610 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 3 at 10:50:02.640 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 0 1 to move to at 10:50:03.470 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 3 4 to move to at 10:50:03.601 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 3 at 10:50:03.607 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 4 at 10:50:03.671 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 2 0 to move to at 10:50:05.382 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 5 1 to move to at 10:50:05.604 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:50:07.818 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:50:08.681 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 4 at 10:50:09.282 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:09.543 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 4 at 10:50:10.086 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 5 at 10:50:10.726 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 3 at 10:50:10.754 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 5 at 10:50:11.032 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 4 at 10:50:11.522 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 4 1 to move to at 10:50:12.778 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 1 0 to move to at 10:50:12.912 AM 29-Oct-2021
+Case 3.15 - Player 3 clicked confirm at 10:50:14.069 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 4 4 to move to at 10:50:14.213 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:14.217 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 4 at 10:50:15.399 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 5 at 10:50:16.362 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:50:16.818 AM 29-Oct-2021
+Case 3.15 - Player 1 clicked confirm at 10:50:17.424 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 0 0 to move to at 10:50:17.573 AM 29-Oct-2021
+Case 3.15 - Player 4 clicked confirm at 10:50:20.466 AM 29-Oct-2021
+Case 3.15 - Player 2 clicked confirm at 10:50:22.132 AM 29-Oct-2021
+Updating pastures at 10:50:22.144 AM 29-Oct-2021
+Person 192 for Player 3 has schedule [2 2 2 2]
+Person 181 for Player 2 has schedule [2 2 2 2]
+Person 203 for Player 4 has schedule [2 2 2 2]
+Person 170 for Player 1 has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 3 3 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 1 2 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 2 1 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 4 2 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 0 3 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 2 3 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 2 0 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 2 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 1 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 0 2 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 3 4 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 1 0 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 0 1 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 4 4 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 4 1 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 0 0 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 0 0 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 4 4 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 0 1 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 4 1 and has schedule [2 2 2 2]
+Patch 3 1 has 200 live grass; 0 cut grass
+Patch 2 4 has 200 live grass; 0 cut grass
+Patch 4 5 has 200 live grass; 0 cut grass
+Patch 1 0 has 156.12671999999998 live grass; 0 cut grass
+Patch 2 3 has 169.82630260408317 live grass; 0 cut grass
+Patch 4 1 has 59.19999999999999 live grass; 0 cut grass
+Patch 0 4 has 200 live grass; 0 cut grass
+Patch 0 3 has 169.82630260408317 live grass; 0 cut grass
+Patch 4 4 has 59.19999999999999 live grass; 0 cut grass
+Patch 2 2 has 200 live grass; 0 cut grass
+Patch 5 2 has 169.82630260408317 live grass; 0 cut grass
+Patch 2 5 has 200 live grass; 0 cut grass
+Patch 3 4 has 156.12671999999998 live grass; 0 cut grass
+Patch 1 1 has 200 live grass; 0 cut grass
+Patch 2 0 has 169.82630260408317 live grass; 0 cut grass
+Patch 1 2 has 180.07487753336918 live grass; 0 cut grass
+Patch 5 1 has 156.12671999999998 live grass; 0 cut grass
+Patch 1 3 has 200 live grass; 0 cut grass
+Patch 5 3 has 200 live grass; 0 cut grass
+Patch 1 4 has 200 live grass; 0 cut grass
+Patch 4 3 has 200 live grass; 0 cut grass
+Patch 0 2 has 156.12671999999998 live grass; 0 cut grass
+Patch 3 2 has 200 live grass; 0 cut grass
+Patch 5 5 has 200 live grass; 0 cut grass
+Patch 0 1 has 59.19999999999999 live grass; 0 cut grass
+Patch 5 4 has 200 live grass; 0 cut grass
+Patch 2 1 has 180.07487753336918 live grass; 0 cut grass
+Patch 3 0 has 200 live grass; 0 cut grass
+Patch 1 5 has 200 live grass; 0 cut grass
+Patch 5 0 has 200 live grass; 0 cut grass
+Patch 4 2 has 180.07487753336918 live grass; 0 cut grass
+Patch 4 0 has 200 live grass; 0 cut grass
+Patch 3 5 has 200 live grass; 0 cut grass
+Patch 0 0 has 59.19999999999999 live grass; 0 cut grass
+Patch 3 3 has 180.07487753336918 live grass; 0 cut grass
+Patch 0 5 has 200 live grass; 0 cut grass
+7-3-15 lost one animal
+LIVE ANIMAL SUMMARY
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 4 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 0 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 4 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 0 1 with history [8 8 8 8 8 8 8 8 8 8]
+Advancing to next phase at 10:50:22.225 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 1 at 10:50:26.030 AM 29-Oct-2021
+Case 3.5 - Player 3 viewing patch 0 1 at 10:50:27.296 AM 29-Oct-2021
+Case 3.5 - Player 4 viewing patch 4 4 at 10:50:27.462 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 1 at 10:50:28.545 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 1 0 at 10:50:28.674 AM 29-Oct-2021
+Case 3.5 - Player 4 viewing patch 4 4 at 10:50:29.249 AM 29-Oct-2021
+Case 3.5 - Player 2 viewing patch 0 0 at 10:50:30.702 AM 29-Oct-2021
+Case 3.5 - Player 3 viewing patch 0 1 at 10:50:32.089 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:50:32.768 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:50:33.651 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:50:34.002 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:34.173 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 1 at 10:50:34.337 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 1 at 10:50:34.952 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 2 at 10:50:35.235 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 1 at 10:50:35.403 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 2 at 10:50:36.187 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 2 at 10:50:36.266 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 1 at 10:50:37.870 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 5 3 to move to at 10:50:38.751 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 2 at 10:50:38.755 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 0 2 to move to at 10:50:38.890 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 1 0 to move to at 10:50:40.593 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:50:45.936 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:45.948 AM 29-Oct-2021
+Case 3.6 - Player 3 deactivating avatar at 10:50:45.966 AM 29-Oct-2021
+Case 3.6 - Player 2 deactivating avatar at 10:50:46.005 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:50:48.056 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:50:48.279 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 2 at 10:50:49.288 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 2 at 10:50:49.305 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 3 1 at 10:50:49.440 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 3 at 10:50:49.938 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:50.038 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 3 at 10:50:50.057 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 2 at 10:50:51.234 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 3 at 10:50:52.087 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 5 2 to move to at 10:50:52.763 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 2 0 to move to at 10:50:53.748 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 1 2 to move to at 10:50:54.627 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:50:55.467 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:50:56.270 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:50:56.288 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 3 at 10:50:56.478 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 3 at 10:50:57.474 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 4 at 10:50:57.493 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 3 at 10:50:57.546 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 4 at 10:50:58.281 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 4 at 10:50:58.481 AM 29-Oct-2021
+Case 3.5 - Player 1 viewing patch 4 1 at 10:50:58.806 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 3 0 to move to at 10:50:58.960 AM 29-Oct-2021
+Case 3.6 - Player 2 activating avatar at 10:51:00.498 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:51:00.601 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 2 3 to move to at 10:51:01.486 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 1 at day 4 at 10:51:01.712 AM 29-Oct-2021
+Case 3.11 - Player 2 cycling avatar schedule to 2 at day 5 at 10:51:02.618 AM 29-Oct-2021
+Case 3.6 - Player 3 activating avatar at 10:51:03.342 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 4 2 to move to at 10:51:03.544 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 1 at day 4 at 10:51:04.264 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 1 at 10:51:04.284 AM 29-Oct-2021
+Case 3.14 - Player 2 selecting patch 4 0 to move to at 10:51:04.774 AM 29-Oct-2021
+Case 3.11 - Player 3 cycling avatar schedule to 2 at day 5 at 10:51:05.008 AM 29-Oct-2021
+Case 3.6 - Player 4 activating avatar at 10:51:05.471 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 2 at 10:51:05.998 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 1 at day 4 at 10:51:07.106 AM 29-Oct-2021
+Case 3.14 - Player 3 selecting patch 3 4 to move to at 10:51:07.419 AM 29-Oct-2021
+Case 3.11 - Player 4 cycling avatar schedule to 2 at day 5 at 10:51:07.976 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 5 1 to move to at 10:51:10.144 AM 29-Oct-2021
+Case 3.15 - Player 3 clicked confirm at 10:51:10.793 AM 29-Oct-2021
+Case 3.14 - Player 4 selecting patch 3 1 to move to at 10:51:11.576 AM 29-Oct-2021
+Case 3.15 - Player 2 clicked confirm at 10:51:12.210 AM 29-Oct-2021
+Case 3.15 - Player 4 clicked confirm at 10:51:12.973 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:51:13.139 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 2 at 10:51:14.292 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 3 at 10:51:15.377 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 5 2 to move to at 10:51:20.792 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:51:23.130 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 3 at 10:51:24.349 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 4 at 10:51:25.341 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 5 3 to move to at 10:51:30.118 AM 29-Oct-2021
+Case 3.6 - Player 1 activating avatar at 10:51:34.258 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 1 at day 4 at 10:51:35.366 AM 29-Oct-2021
+Case 3.11 - Player 1 cycling avatar schedule to 2 at day 5 at 10:51:36.702 AM 29-Oct-2021
+Case 3.14 - Player 1 selecting patch 5 4 to move to at 10:51:39.441 AM 29-Oct-2021
+Case 3.15 - Player 1 clicked confirm at 10:51:41.698 AM 29-Oct-2021
+Updating pastures at 10:51:41.723 AM 29-Oct-2021
+Person 192 for Player 3 has schedule [2 2 2 2]
+Person 203 for Player 4 has schedule [2 2 2 2]
+Person 170 for Player 1 has schedule [2 2 2 2]
+Person 181 for Player 2 has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 1 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 0 2 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 5 3 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 1 0 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 1 2 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 2 0 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 5 2 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 2 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 3 0 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 4 2 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 2 3 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 3 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 3 1 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 3 4 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 4 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 4 0 and has schedule [2 2 2 2]
+Person 203 for Player 4 is at patch 3 1 and has schedule [2 2 2 2]
+Person 192 for Player 3 is at patch 3 4 and has schedule [2 2 2 2]
+Person 170 for Player 1 is at patch 5 4 and has schedule [2 2 2 2]
+Person 181 for Player 2 is at patch 4 0 and has schedule [2 2 2 2]
+Patch 0 0 has 151.87882064871664 live grass; 0 cut grass
+Patch 0 3 has 197.00460167923734 live grass; 0 cut grass
+Patch 3 3 has 198.18481618534236 live grass; 0 cut grass
+Patch 3 5 has 200 live grass; 0 cut grass
+Patch 4 2 has 152.23393074884007 live grass; 0 cut grass
+Patch 5 4 has 59.19999999999999 live grass; 0 cut grass
+Patch 4 5 has 200 live grass; 0 cut grass
+Patch 0 5 has 200 live grass; 0 cut grass
+Patch 5 0 has 200 live grass; 0 cut grass
+Patch 0 2 has 168.4945599519859 live grass; 0 cut grass
+Patch 2 3 has 156.14647173034956 live grass; 0 cut grass
+Patch 4 3 has 200 live grass; 0 cut grass
+Patch 2 2 has 200 live grass; 0 cut grass
+Patch 1 2 has 169.84161915481567 live grass; 0 cut grass
+Patch 4 4 has 151.87882064871664 live grass; 0 cut grass
+Patch 4 0 has 59.19999999999999 live grass; 0 cut grass
+Patch 1 4 has 200 live grass; 0 cut grass
+Patch 3 1 has 59.19999999999999 live grass; 0 cut grass
+Patch 2 5 has 200 live grass; 0 cut grass
+Patch 5 3 has 114.93658971847783 live grass; 0 cut grass
+Patch 0 4 has 200 live grass; 0 cut grass
+Patch 2 0 has 161.5001125583256 live grass; 0 cut grass
+Patch 2 1 has 198.18481618534236 live grass; 0 cut grass
+Patch 3 0 has 156.12671999999998 live grass; 0 cut grass
+Patch 0 1 has 151.87882064871664 live grass; 0 cut grass
+Patch 5 5 has 200 live grass; 0 cut grass
+Patch 4 1 has 151.87882064871664 live grass; 0 cut grass
+Patch 3 2 has 200 live grass; 0 cut grass
+Patch 1 5 has 200 live grass; 0 cut grass
+Patch 1 0 has 163.1506213395783 live grass; 0 cut grass
+Patch 2 4 has 200 live grass; 0 cut grass
+Patch 1 1 has 200 live grass; 0 cut grass
+Patch 5 1 has 163.1506213395783 live grass; 0 cut grass
+Patch 5 2 has 63.368717563849124 live grass; 0 cut grass
+Patch 3 4 has 67.22342602930178 live grass; 0 cut grass
+Patch 1 3 has 200 live grass; 0 cut grass
+7-3-15 lost one animal
+7-2-15 lost one animal
+7-2-15 lost one animal
+LIVE ANIMAL SUMMARY
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 4 has animal at patch 3 1 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 2 has animal at patch 4 0 with history [8 8 8 8 8 8 8 8 8 8]
+Player 1 has animal at patch 5 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Player 3 has animal at patch 3 4 with history [8 8 8 8 8 8 8 8 8 8]
+Game ended at 10:51:41.822 AM 29-Oct-2021
