@@ -126,25 +126,25 @@ local player_vars "mean_age frac_female frac_sheep frac_crops mean_herd1 mean_go
 //drop if round > 8
 
 reg mean_grass_shared_used `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session) 
-outreg2 using gameRegs.xls, stats(coef) replace
+outreg2 using gameRegs.xls, stats(coef se) replace
 reg mean_grass_public_used `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_grass_cut `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg var_grass_cut `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_grass_live `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg var_grass_live `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg frac_shared_used `player_vars' datenum round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg conflictCount  `player_vars' datenum round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_animals  `player_vars' datenum round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg var_animals  `player_vars' datenum round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 
 gen hasConflict = conflictCount > 0
 
@@ -164,36 +164,36 @@ patch_5_0_private + patch_5_1_private + patch_5_2_private + patch_5_3_private + 
 
 
 //probit hasConflict `player_vars' datenum round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-//outreg2 using gameRegs.xls, stats(coef) 
+//outreg2 using gameRegs.xls, stats(coef se) 
 
 //just game vars
 reg mean_grass_shared_used round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session) 
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_grass_public_used round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_grass_cut round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg var_grass_cut round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_grass_live round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg var_grass_live  round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg frac_shared_used round rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg conflictCount  round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg mean_animals  round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 reg var_animals   round mean_grass_cut frac_shared_used rainfall rainfall_m1_n rainfall_m2_n, cluster(session)
-outreg2 using gameRegs.xls, stats(coef) 
+outreg2 using gameRegs.xls, stats(coef se) 
 //probit hasConflict round mean_grass_cut_n frac_shared_used_n rainfall rainfall_m1_n rainfall_m2_n mean_animals, cluster(session)
-//outreg2 using gameRegs.xls, stats(coef) 
+//outreg2 using gameRegs.xls, stats(coef se) 
 */
 //collapse (min) privateCount sharedCount mean_animals datenum `player_vars' (mean) mean_grass_live mean_grass_cut var_grass_live var_grass_cut mean_grass_public_used mean_grass_shared_used frac_shared_used game_number, by(session)
 
 //reg mean_animals  mean_herd1 mean_good1 mean_bad1 mean_q2
 
 //reg sharedCount frac_female  mean_workMale mean_workFemale 
-//outreg2 using sharedland.xls, stats(coef) 
+//outreg2 using sharedland.xls, stats(coef se) 
 
